@@ -1,6 +1,41 @@
 body {
-    background-color: #fdfcfd
-    ;
+    background-color: #fdfcfd;
+}
+
+h1, h4 {
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+}
+
+p, a, h3 {
+    text-align: justify;
+    font-family: 'Georgia';
+}
+
+section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+
+.cert-logo {
+    max-height: 45px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.dynamic-logo {
+    max-height: 100px;
+    width: auto;
+}
+
+.hobbies_img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .scroll-to-top {
@@ -10,40 +45,4 @@ body {
     display: none;
     font-size: 2rem;
     cursor: pointer;
-}
-
-.dynamic-logo {
-    max-height: 50px;
-    width: auto;
-    margin-right: 10px;
-}
-
-.hobbies_img {
-    max-width: 200px;
-    max-height: 200px;
-    margin: 15px;
-}
-
-p,
-a {
-    text-align: justify;
-    font-family: 'Rochester', cursive;
-    font-size: 24px;
-}
-
-h1,
-h3,
-h4 {
-    font-family: 'Sacramento', cursive;
-    font-weight: bold;
-}
-
-section {
-    border: 1px solid #ccc;
-    /* Cor da borda e espessura (1px) */
-    padding: 20px;
-    /* Espaçamento interno para separar o conteúdo da borda */
-    margin: 20px 0;
-    /* Espaçamento externo para criar espaço entre as seções */
-    border-radius: 10px;
 }
