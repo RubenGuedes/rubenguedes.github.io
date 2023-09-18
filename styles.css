@@ -1,0 +1,49 @@
+body {
+    background-color: #fdfcfd
+    ;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.dynamic-logo {
+    max-height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.hobbies_img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 15px;
+}
+
+p,
+a {
+    text-align: justify;
+    font-family: 'Rochester', cursive;
+    font-size: 24px;
+}
+
+h1,
+h3,
+h4 {
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+}
+
+section {
+    border: 1px solid #ccc;
+    /* Cor da borda e espessura (1px) */
+    padding: 20px;
+    /* Espaçamento interno para separar o conteúdo da borda */
+    margin: 20px 0;
+    /* Espaçamento externo para criar espaço entre as seções */
+    border-radius: 10px;
+}
