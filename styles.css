@@ -3,6 +3,7 @@ body {
 }
 
 h1,
+h2,
 h4 {
     font-family: 'Sacramento', cursive;
     font-weight: bold;
@@ -22,6 +23,9 @@ section {
     border-radius: 10px;
 }
 
+small {
+    font-size: 12px;
+}
 
 .cert-logo {
     max-height: 45px;
