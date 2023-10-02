@@ -20,12 +20,16 @@ h5 {
 section {
     border: 1px solid #ccc;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 5px;
     border-radius: 10px;
 }
 
 small {
     font-size: 12px;
+}
+
+.main-content {
+    padding: 20px 0px;
 }
 
 .cert-logo {
@@ -39,6 +43,9 @@ small {
     width: auto;
 }
 
+.footer-section {
+    padding: 1rem 0rem 0.25rem 0rem;
+}
 
 .scroll-to-top {
     position: fixed;
