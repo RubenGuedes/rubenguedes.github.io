@@ -4,6 +4,7 @@ body {
 
 h1,
 h2,
+h3,
 h4 {
     font-family: 'Sacramento', cursive;
     font-weight: bold;
@@ -37,6 +38,7 @@ small {
     max-height: 100px;
     width: auto;
 }
+
 
 .scroll-to-top {
     position: fixed;
